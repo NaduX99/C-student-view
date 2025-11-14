@@ -4,7 +4,8 @@ using StudentManagement.Models;
 
 namespace StudentManagement.Controllers
 {
-    public class HomeController : Controll
+    public class HomeController : Controller
+    
     {
         private readonly ILogger<HomeController> _logger;
 
